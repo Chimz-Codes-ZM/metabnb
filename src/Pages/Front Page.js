@@ -1,10 +1,11 @@
-import "../Images/metabnb.png"
 import React from "react"
+import Navbar from "../Components/Navbar"
+
 
 function First() {
     return (
         <div>
-            <img src="../Images/metabnb.png"></img>
+           <Navbar /> 
         </div>
     )
 }
