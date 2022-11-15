@@ -1,0 +1,46 @@
+body {
+    background-color: #f5f5f5;
+}
+
+nav {display: flex;
+    height: 48px;
+    margin: 43px 100px 125px 100px;
+    border: 2px solid red;
+    
+}
+
+nav > img {
+    margin-right: 163px;
+}
+
+
+div {
+    border: 2px solid red;
+
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.links {
+    width: 626px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    margin-right: 48px;
+}
+
+button {
+    width: 170px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    color: white;
+}
