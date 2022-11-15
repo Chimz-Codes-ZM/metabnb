@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import Section from "../Components/Section";
 import Pagebreak from "../Components/Pagebreak";
 import Section3 from "../Components/Section3";
+import Footer from "../Components/Footer";
 
 function First() {
     return (
@@ -11,6 +12,7 @@ function First() {
            <Section />
            <Pagebreak />
            <Section3 />
+           <Footer />
         </div>
     )
 }

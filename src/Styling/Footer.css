@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+  height: 322px;
+
+  background: #1d1d1e;
+  color: white;
+}
+
+.footer-logos {
+  width: 16%;
+  height: 230px;
+  margin-left: 113px;
+  margin-top: 58px;
+  margin-right: 13%;
+}
+
+.footer-content {
+    display: flex;
+    width: 48%;
+    gap: 15%;
+}
