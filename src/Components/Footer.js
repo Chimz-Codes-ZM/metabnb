@@ -10,7 +10,7 @@ function Footer() {
     <div className="footer">
       <div className="footer-logos">
         <img src={metaFooter} />
-        <div>
+        <div className="socials">
           <img src={footerFacebook} />
           <img src={footerInsta} />
           <img src={footerTwitter} />
@@ -20,21 +20,21 @@ function Footer() {
 
       <div className="footer-content">
         <div className="community">
-            <p>Community</p>
+            <p style={{fontSize: '18px', lineHeight: '22px'}}><b>Community</b></p>
             <p>NFT</p>
             <p>Tokens</p>
             <p>Landlords</p>
             <p>Discord</p>
         </div>
         <div className="places">
-            <p>Places</p>
+            <p style={{fontSize: '18px', lineHeight: '22px'}}><b>Places</b></p>
             <p>Castle</p>
             <p>Farms</p>
             <p>Beach</p>
             <p>Learn more</p>
         </div>
         <div className="about-us">
-            <p>About us</p>
+            <p style={{fontSize: '18px', lineHeight: '22px'}}><b>About us</b></p>
             <p>Road map</p>
             <p>Creators</p>
             <p>Career</p>

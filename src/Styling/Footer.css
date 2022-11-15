@@ -1,5 +1,5 @@
 .footer {
-    display: flex;
+  display: flex;
   height: 322px;
 
   background: #1d1d1e;
@@ -14,8 +14,25 @@
   margin-right: 13%;
 }
 
-.footer-content {
+.socials {
     display: flex;
-    width: 48%;
-    gap: 15%;
+    gap: 32px;
+    margin: 96px 0px 55px 0px;
+}
+
+.footer-content {
+  display: flex;
+  width: 48%;
+  height: 169px;
+  gap: 31.5%;
+  margin-top: 63px;
+}
+
+.community,
+.places,
+.about-us {
+  color: #f1f3f9;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
 }
