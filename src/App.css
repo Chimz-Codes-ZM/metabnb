@@ -4,8 +4,9 @@ body {
 
 nav {display: flex;
     height: 48px;
+    width: 86%;
     margin: 43px 100px 125px 100px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 
@@ -15,7 +16,7 @@ nav > img {
 
 
 div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -44,3 +45,4 @@ button {
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     color: white;
 }
+
