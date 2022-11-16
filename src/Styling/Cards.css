@@ -1,7 +1,8 @@
 .cards-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .inspiration {
@@ -9,4 +10,25 @@
   font-size: 48px;
   line-height: 60px;
   width: 817px;
+}
+
+.cards-row-1 {
+  height: 372px;
+  width: 1240px;
+}
+
+.card1 {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  /* FADE */
+
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  width: 292px;
+  height: 372px;
+}
+
+.card1 > img {
+  width: 260px;
+  height: 265px;
+  margin: 16px 0px 0px 16px;
 }
