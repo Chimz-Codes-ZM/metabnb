@@ -1,0 +1,12 @@
+.cards-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inspiration {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  width: 817px;
+}

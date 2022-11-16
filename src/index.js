@@ -6,6 +6,7 @@ import '../src/Styling/Section.css';
 import '../src/Styling/Pagebreak.css';
 import '../src/Styling/Section3.css';
 import '../src/Styling/Footer.css';
+import '../src/Styling/Cards.css';
 import App from './App';
 
 
