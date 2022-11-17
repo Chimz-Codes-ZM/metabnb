@@ -16,7 +16,7 @@ nav > img {
 
 
 div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -42,7 +42,18 @@ button {
     gap: 10px;
     border-radius: 10px;
     border: none;
-    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    background: #A02279;
     color: white;
+    cursor: pointer;
 }
 
+
+button:hover {
+    background-color: #64214c;
+    transition: 0.7s
+}
+
+button:not(:hover) {
+    background-color: #A02279;
+    transition: 0.7s;
+}

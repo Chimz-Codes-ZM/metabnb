@@ -1,7 +1,11 @@
 import React from "react";
 import logo1 from "../Images/Home/Navbar/logo1.png";
+import PopUp from "./PopUp";
+import { useState } from "react";
 
 function Navbar() {
+const [buttonPopup, setButtonPopup] = useState(false)
+
   return (
     <nav>
       <img src={logo1} />
@@ -16,7 +20,8 @@ function Navbar() {
         </div>
 
         <div>
-          <button>Connect Wallet</button>
+          <button className="connect-button" onClick={() => setButtonPopup(true)}>Connect Wallet</button>
+          <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}></PopUp>
         </div>
       </div>
     </nav>

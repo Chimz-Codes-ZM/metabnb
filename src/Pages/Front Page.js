@@ -6,8 +6,12 @@ import Section3 from "../Components/Section3";
 import Footer from "../Components/Footer";
 import Cards from "../Components/Cards";
 
+
 function First() {
+
     return (
+
+        
         <div>
            <Navbar /> 
            <Section />
